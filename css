@@ -1,0 +1,80 @@
+/* Definerer utseende og setter inn bilde i første infoboks */
+#exlidHomeContainer div.EXLContentBlock3 div.EXLHomeBannerContainer1{border:1px solid #cfcfcf; width:220px; height:92px; float:left; background-image: url(http://bibsys-primo.hosted.exlibrisgroup.com/primo_library/libweb/images/bg_banner_home_iPhone.png); background-repeat:no-repeat}
+
+/* Definerer utseende og setter inn blankt-bilde i andre infoboks */
+#exlidHomeContainer div.EXLContentBlock3 div.EXLHomeBannerContainer2{border:1px solid #cfcfcf; width:220px; height:92px; float:left;  margin-left:1em; background-image:url(http://bibsys-primo.hosted.exlibrisgroup.com/primo_library/libweb/images/bg_strip_home_banners.png); background-repeat: no-repeat}
+
+/* Legger til call-number fra postvisningen i brief-view (får ikke til å virke, og får ikke hjelp fra bibsys) */
+.EXLResultsList span.EXLAvailabilityCallNumber {display: inline;}
+
+/* Skjuler Facebook-knappene */
+.EXLFacebookIframe {display: none;}
+
+/* Skjuler Show bX Hot Articles */
+#showhidediv span {display: none;}
+#showhidediv img {display: none;}
+
+/* Skjuler hele boksen med språkvalg */
+#exlidMainMenuTile div.EXLLanguagesContainer{display:none;}
+#exlidMainMenuTile {width:auto;}
+#exlidMainMenuRibbon {margin-top:40px;}
+
+/* Skjuler New Search lenken */
+#exlidMainMenuItem1 span {display:none;}
+
+/* Fjerner Help i menyen øverst på siden */
+#exlidMainMenuItem4 span {display:none;}
+
+/* Fjerner | mellom menypunktene øverst på siden */
+#exlidMainMenuRibbon li span {border:none;}
+
+/* Skjuler tidsintervall-blokken */
+#exlidFacetSublist2 {display:none;}
+
+/* Skjuler fasetten Bibliograpgy */
+#exlidFacet9 {display: none;}
+
+/* Skjuler fasetten MESH */
+#exlidFacet10 {display: none;}
+
+/* Skjuler fasetten TEK-ord */
+#exlidFacet11 {display: none;}
+
+/* Skjuler fasetten Humord */
+#exlidFacet12 {display: none;}
+
+/* Skjuler fasetten Agrovoc */
+#exlidFacet13 {display: none;}
+
+/* Skjuler fasetten Geografiske emneord */
+#exlidFacet14 {display: none;}
+
+/* Skjuler fasetten Dewey */
+#exlidFacet16 {display: none;}
+
+/* Skjuler fasetten UIO */
+#exlidFacet19 {display: none;}
+
+/* Skjuler Foreslåtte søk */
+#exlidSuggestedList {display: none;}
+
+/* Endrer bakgrunnsfargen utenfor innholdsboksen */
+html{
+background-color: #e9e8e5;
+}
+
+/* Setter kantlinjer og innsnevrer bredden på innholdsboksen*/
+body{
+border-right: 1px solid #8c8c8a;
+border-left: 1px solid #8c8c8a;
+width: 1170px;
+margin-right: auto;
+margin-left: auto;
+height: auto;
+}
+/* Endrer bredden på kolonnene for fasetter og innhold på trefflisten*/
+.EXLFacetTile {width:23%;}
+.EXLResultsContainer div.EXLResultsTile {width:75%;}
+
+/* Forstørrer tekststørrelsen på titler i trefflisten */
+.EXLResultsList h2 {font-size:110%;}
